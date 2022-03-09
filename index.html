@@ -8,6 +8,19 @@
   <title>The Docket</title>
 </head>
 <body>
-  <h1>What's On The Docket</h1>
+  <main class="container">
+    <div class="card flex flex-col">
+      <h1 class="card-title">What's on the Docket:</h1>
+      <form class="task-form grid grid-12-col">
+        <input 
+          type="text" 
+          name="name" 
+          class="task-input" 
+          placeholder="e.g. walk the dog" 
+          aria-label="task input">
+        <button type="submit" class="btn submit-btn">Submit</button>  
+      </form>
+    </div>
+  </main>
 </body>
 </html>
